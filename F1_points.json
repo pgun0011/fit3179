@@ -1,0 +1,12 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+     "title": { "text": "Winners of F1" },
+     "data": {
+     "url": "https://raw.githubusercontent.com/pgun0011/fit3179/main/winners.csv"
+     },
+     "mark": "circle",
+     "encoding": {
+     "x": { "field": "PTS", "type": "quantitative" },
+     "y": { "field": "DRIVER", "type": "nominal" }
+     }
+    }
